@@ -1,4 +1,113 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul, ol {
+    margin: 10px 0 20px 20px;
+}
+
+/* Links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image */
+img {
+    display: block;
+    margin: 20px auto; /* Center the image */
+    max-width: 100%; /* Responsive image */
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    background-color: #eaeaea; /* Light background for footer */
+    border-top: 1px solid #ccc; /* Add a top border */
+}
+
+/* Section Styles */
+section {
+    background-color: #ffffff; /* White background for sections */
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff; /* White background for form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in element's total width/height */
+}
+
+textarea {
+    height: 100px; /* Set a height for the textarea */
+}
+
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a5e8c;
 }
